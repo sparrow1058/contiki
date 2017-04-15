@@ -8,18 +8,20 @@ UseTrigger=1
 TriggerName=main
 LimitSize=0
 ByteLimit=50
+[DebugChecksum]
+Checksum=-1541629716
 [InterruptLog]
 LogEnabled=0
-SumEnabled=0
 GraphEnabled=0
 ShowTimeLog=1
+SumEnabled=0
 ShowTimeSum=1
 SumSortOrder=0
 [DataLog]
 LogEnabled=0
-SumEnabled=0
 GraphEnabled=0
 ShowTimeLog=1
+SumEnabled=0
 ShowTimeSum=1
 [Disassemble mode]
 mode=0
@@ -36,6 +38,10 @@ Stop=1
 [Trace1]
 Enabled=0
 ShowSource=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [Aliases]
 Count=0
 SuppressDialog=0

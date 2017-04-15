@@ -2,209 +2,244 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1727143572</fileChecksum>
+  <fileChecksum>573260807</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
       <file>$PROJ_DIR$\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c</file>
-      <file>$PROJ_DIR$\contiki\core\sys\autostart.c</file>
-      <file>$PROJ_DIR$\contiki\core\sys\etimer.c</file>
       <file>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</file>
-      <file>$PROJ_DIR$\contiki\core\sys\process.c</file>
-      <file>$PROJ_DIR$\contiki\core\sys\procinit.c</file>
-      <file>$PROJ_DIR$\contiki\core\sys\timer.c</file>
-      <file>$PROJ_DIR$\contiki\cpu\arm\stm32f103\clock.c</file>
-      <file>$PROJ_DIR$\user\contiki.c</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</file>
-      <file>$PROJ_DIR$\user\led.c</file>
-      <file>$PROJ_DIR$\user\stm32f10x_it.c</file>
-      <file>$PROJ_DIR$\user\uart.c</file>
+      <file>$PROJ_DIR$\contiki\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\error.h</file>
+      <file>$PROJ_DIR$\contiki\core\contiki.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\hal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GUI.pbi</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\dev\stm32w-systick.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\micro-common.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\error-def.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GUI.o</file>
+      <file>$PROJ_DIR$\user\font.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\contiki\core\net\uipopt.h</file>
+      <file>$PROJ_DIR$\contiki\core\net\uip-debug.h</file>
+      <file>$PROJ_DIR$\contiki\core\net\uip.h</file>
+      <file>$PROJ_DIR$\contiki\core\dev\radio.h</file>
+      <file>$PROJ_DIR$\contiki\core\dev\leds.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\rtimer.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\energest.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\ctimer.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\loader.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\arg.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\procinit.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\timer.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\clock.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\cc.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\lc-switch.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\lc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h</file>
+      <file>$PROJ_DIR$\user\stm32f10x_it.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\stm32.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\clock.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\core_cm3.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\core_cm3.o</file>
       <file>$PROJ_DIR$\user\main.c</file>
-      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm3.o</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32.pbd</file>
-      <file>$PROJ_DIR$\Debug\Exe\stm32.out</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.pbi</file>
-      <file>$PROJ_DIR$\user\stm32f10x_it.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
-      <file>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h</file>
-      <file>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h</file>
-      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
-      <file>$PROJ_DIR$\user\stm32_eval.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
-      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
-      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-      <file>$PROJ_DIR$\user\led.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm3210b_eval.pbi</file>
-      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h</file>
-      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103x8.icf</file>
-      <file>$PROJ_DIR$\Debug\Exe\stm32.hex</file>
-      <file>$PROJ_DIR$\user\stm32f10x_conf.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\led.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
-      <file>$PROJ_DIR$\user\stm3210b_eval.c</file>
-      <file>$PROJ_DIR$\user\stm3210b_eval.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\contiki.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\contiki.pbi</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h</file>
+      <file>$PROJ_DIR$\user\contiki.c</file>
+      <file>$PROJ_DIR$\contiki\core\contiki-default-conf.h</file>
+      <file>$PROJ_DIR$\user\spi.h</file>
+      <file>$PROJ_DIR$\user\gui.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm3.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\user\lcd.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\led.h</file>
+      <file>$PROJ_DIR$\contiki\core\net\tcpip.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\dev\stm32w-conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\button.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\system-timer.h</file>
+      <file>$PROJ_DIR$\contiki\core\contiki-version.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\dev\stm32w-radio.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\cortexm3\memmap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\cortexm3\nvm.h</file>
+      <file>$PROJ_DIR$\contiki\cpu\arm\stm32f103\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\user\contiki-conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.pbi</file>
+      <file>$PROJ_DIR$\contiki\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\contiki\core\sys\process.c</file>
+      <file>$PROJ_DIR$\contiki\core\sys\procinit.c</file>
+      <file>$PROJ_DIR$\contiki\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\contiki\cpu\arm\stm32f103\clock.c</file>
+      <file>$PROJ_DIR$\user\delay.c</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</file>
+      <file>$PROJ_DIR$\user\gui.c</file>
+      <file>$PROJ_DIR$\user\lcd.c</file>
+      <file>$PROJ_DIR$\user\led.c</file>
+      <file>$PROJ_DIR$\user\spi.c</file>
+      <file>$PROJ_DIR$\user\stm32f10x_it.c</file>
+      <file>$PROJ_DIR$\user\uart.c</file>
+      <file>$PROJ_DIR$\contiki\core\sys\pt.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\autostart.h</file>
+      <file>$PROJ_DIR$\contiki\core\sys\process.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h</file>
       <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
       <file>$PROJ_DIR$\user\uart.h</file>
       <file>$PROJ_DIR$\contiki\core\sys\etimer.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\pt.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\autostart.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\process.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\lc.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\lc-switch.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\cc.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\clock.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\timer.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\procinit.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\arg.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\loader.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\ctimer.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\energest.h</file>
-      <file>$PROJ_DIR$\contiki\core\sys\rtimer.h</file>
-      <file>$PROJ_DIR$\contiki\core\dev\leds.h</file>
-      <file>$PROJ_DIR$\contiki\core\dev\radio.h</file>
-      <file>$PROJ_DIR$\contiki\core\net\uip.h</file>
-      <file>$PROJ_DIR$\contiki\core\net\uip-debug.h</file>
-      <file>$PROJ_DIR$\contiki\core\net\uipopt.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\etimer.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\autostart.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\process.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\autostart.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\etimer.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\process.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.o</file>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.pbi</file>
-      <file>$PROJ_DIR$\user\contiki-conf.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\procinit.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\procinit.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\clock.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
-      <file>$PROJ_DIR$\contiki\core\contiki.h</file>
-      <file>$PROJ_DIR$\contiki\core\contiki-default-conf.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\error.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\hal.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\error-def.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\dev\stm32w-systick.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\micro-common.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\led.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\button.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\system-timer.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\cortexm3\nvm.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\dev\stm32w-conf.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\dev\stm32w-radio.h</file>
-      <file>$PROJ_DIR$\contiki\core\contiki-version.h</file>
-      <file>$PROJ_DIR$\contiki\core\net\tcpip.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\stm32w108\hal\micro\cortexm3\memmap.h</file>
-      <file>$PROJ_DIR$\contiki\cpu\arm\stm32f103\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki.o</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h</file>
+      <file>$PROJ_DIR$\user\stm3210b_eval.h</file>
+      <file>$PROJ_DIR$\user\stm3210b_eval.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.o</file>
+      <file>$PROJ_DIR$\user\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\stm32.hex</file>
+      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103x8.icf</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm3210b_eval.pbi</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h</file>
+      <file>$PROJ_DIR$\user\led.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\user\stm32_eval.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.pbi</file>
+      <file>$PROJ_DIR$\user\delay.h</file>
+      <file>$PROJ_DIR$\user\contiki-main.c</file>
+      <file>$PROJ_DIR$\lcd\x2.h</file>
+      <file>$PROJ_DIR$\lcd\x1.h</file>
+      <file>$PROJ_DIR$\lcd\core_cm3.h</file>
+      <file>$PROJ_DIR$\lcd\delay.h</file>
+      <file>$PROJ_DIR$\lcd\system_stm32f10x.h</file>
+      <file>$PROJ_DIR$\lcd\stm32f10x.h</file>
+      <file>$PROJ_DIR$\lcd\contiki-conf.h</file>
+      <file>$PROJ_DIR$\lcd\led.h</file>
+      <file>$PROJ_DIR$\lcd\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\lcd\uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Lcd_Driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Lcd_Driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TFT_demo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TFT_demo.o</file>
+      <file>$PROJ_DIR$\lcd\delay.c</file>
+      <file>$PROJ_DIR$\lcd\GUI.c</file>
+      <file>$PROJ_DIR$\lcd\Lcd_Driver.c</file>
+      <file>$PROJ_DIR$\lcd\main.c</file>
+      <file>$PROJ_DIR$\lcd\stm32f10x_it.c</file>
+      <file>$PROJ_DIR$\lcd\system_stm32f10x.c</file>
+      <file>$PROJ_DIR$\lcd\TFT_demo.c</file>
+      <file>$PROJ_DIR$\lcd\LCD_Config.h</file>
+      <file>$PROJ_DIR$\lcd\TFT_demo.h</file>
+      <file>$PROJ_DIR$\lcd\stm32f10x_it.h</file>
+      <file>$PROJ_DIR$\lcd\Picture.h</file>
+      <file>$PROJ_DIR$\lcd\contiki.c</file>
+      <file>$PROJ_DIR$\lcd\uart.c</file>
+      <file>$PROJ_DIR$\lcd\led.c</file>
+      <file>$PROJ_DIR$\lcd\Lcd_Driver.h</file>
+      <file>$PROJ_DIR$\lcd\Font.h</file>
+      <file>$PROJ_DIR$\lcd\contiki-main.c</file>
+      <file>$PROJ_DIR$\lcd\GUI.h</file>
+      <file>$PROJ_DIR$\lcd\core_cm3.c</file>
+      <file>$PROJ_DIR$\lcd\spi.c</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 16</file>
+          <name>ICCARM</name>
+          <file> 58</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 17</file>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 90</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 21 25 23 26 50 24 20 22</file>
-        </tool>
-        <tool>
           <name>ICCARM</name>
-          <file> 21 25 23 26 50 24 20 22</file>
+          <file> 63 60 59 66 164 61 64 62</file>
         </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\contiki\core\sys\autostart.c</name>
-      <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 99</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 101</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 76 77 75 78 79 80 107 21 25 23 26 50 24 20 22</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 76 77 75 78 79 80 107 21 25 23 26 50 24 20 22</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\contiki\core\sys\etimer.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 98</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 102</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 107 21 25 23 26 50 24 20 22 74 82 81 77 75 78 79 80</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 107 21 25 23 26 50 24 20 22 74 82 81 77 75 78 79 80</file>
+          <file> 61 60 164 59 66 64 62 63</file>
         </tool>
       </inputs>
     </file>
@@ -212,321 +247,53 @@
       <name>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 41</file>
-        </tool>
-        <tool>
           <name>ICCARM</name>
           <file> 40</file>
         </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 86</file>
+        </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49</file>
+          <name>ICCARM</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 183 162 180 161 149 165</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49</file>
+          <name>BICOMP</name>
+          <file> 50 59 66 42 166 60 162 167 63 183 169 64 62 65 149 164 61 168 161 165</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\contiki\core\sys\process.c</name>
+      <name>$PROJ_DIR$\contiki\core\sys\autostart.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 103</file>
+          <name>ICCARM</name>
+          <file> 16</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 100</file>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 87</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 68 25 23 26 50 24 20 22 72 71 77 75 78 79 80 107 21 84</file>
-        </tool>
-        <tool>
           <name>ICCARM</name>
-          <file> 68 25 23 26 50 24 20 22 72 71 77 75 78 79 80 107 21 84</file>
+          <file> 138 139 137 39 38 37 181 63 60 59 66 164 61 64 62</file>
         </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\contiki\core\sys\procinit.c</name>
-      <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 111</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 110</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 115 128 107 21 25 23 26 50 24 20 22 116 77 75 78 79 80 76 82 81 86 74 88 83 85 87</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 115 128 107 21 25 23 26 50 24 20 22 116 77 75 78 79 80 76 82 81 86 74 88 83 85 87</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\contiki\core\sys\timer.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 108</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 109</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 107 21 25 23 26 50 24 20 22 81 82</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 107 21 25 23 26 50 24 20 22 81 82</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\contiki\cpu\arm\stm32f103\clock.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 114</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 112</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49 39 81 107 80 74 82 77 75 78 79 73 68 72 71</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 131 39 81 107 80 74 82 77 75 78 79 73 68 72 71</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\user\contiki.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 66</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 65</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49 68 72 71 73 81 107 77 75 78 79 80 83 74 82 76 51</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49 68 72 71 73 81 107 77 75 78 79 80 83 74 82 76 51</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 30</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 32</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 49 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 49 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 28</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 29</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 54 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 55 67 49</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 54 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 55 67 49</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 31</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 27</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 55 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 67 49</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 55 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 67 49</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 106</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 104</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 67 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 49</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 67 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 49</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\user\led.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 62</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 51 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 51 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\user\stm32f10x_it.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 38</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 37</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 39 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 39 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\user\uart.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 94</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 95</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49 68 72 71 96 97</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 73 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49 68 72 71 96 97</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\user\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 35</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 36</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49 51</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 60 54 55 67 49 51</file>
+          <file> 138 139 137 37 39 38</file>
         </tool>
       </inputs>
     </file>
@@ -535,7 +302,7 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 34</file>
+          <file> 44</file>
         </tool>
       </outputs>
     </file>
@@ -544,13 +311,537 @@
       <outputs>
         <tool>
           <name>OBJCOPY</name>
-          <file> 59</file>
+          <file> 155</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 58 101 112 65 17 102 61 32 100 110 29 37 27 104 40 109 95 56 57 53 105</file>
+          <file> 156 16 106 94 58 96 15 10 186 153 49 17 112 69 46 67 171 13 40 188 116 22 158 157 159 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki\cpu\stm32w108\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140 60 59 66 164 61 64 62 144 143 3 9 5 8 103 107 108 114 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140 60 59 66 164 61 64 62 144 143 3 9 5 8 103 107 108 114 7 105 4 109 118 63 71 139 137 39 38 37 138 35 36 31 146 29 34 32 30 28 110 27 25 26 24 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 163</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167 149 65 154 63 169 60 64 62 50 163 42 166 66 59 162 164 61 168 161 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\contiki.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 140 144 143 145 36 118 139 137 39 38 37 34 146 35 138 163</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 140 144 143 145 36 118 139 137 39 38 37 34 146 35 138 163</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 63 60 59 66 164 61 64 62 146 35 36 139 137 39 38 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 35 63 139 59 60 164 181 38 146 66 64 62 137 39 36 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140 60 59 66 164 61 64 62 144 143 139 137 39 38 37 181 63 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 37 64 59 33 60 66 38 139 143 62 140 164 61 137 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 109 181 63 60 59 66 164 61 64 62 71 139 137 39 38 37 138 35 36 31 146 29 34 32 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 61 71 34 60 66 36 109 138 29 64 39 181 35 139 146 137 32 63 59 164 37 4 62 38 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 63 60 59 66 164 61 64 62 36 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 164 63 61 59 66 64 62 181 36 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki\cpu\arm\stm32f103\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 115 198 180 36 181 37 146 35 139 137 39 38 184 140 144 143</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 161 137 146 61 168 181 36 42 166 180 198 37 184 167 63 183 169 59 164 165 139 38 140 144 50 66 64 62 65 162 149 35 39 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 167 59 154 66 63 169 60 162 42 166 64 62 65 149 173 164 61 168 161 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 183 162 180 161 149</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166 42 164 59 60 168 165 50 167 63 183 169 61 161 66 64 62 65 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 183 161 180 149 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166 42 66 59 50 60 162 161 167 63 183 169 64 62 65 149 164 61 168 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 183 162 180 149 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 166 50 65 149 60 64 62 167 63 183 169 66 59 162 161 164 61 168 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 183 162 180 161 149 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149 183 65 167 50 63 169 60 64 62 161 42 166 66 59 162 147 164 61 168 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 183 162 180 161 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 167 63 169 61 168 161 50 42 166 59 60 164 165 149 66 64 62 65 162</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\gui.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 102 21 144 20 11 173 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 173 154 21 42 61 168 161 50 20 102 11 73 167 63 169 59 164 165 144 166 66 64 62 65 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\lcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 102 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167 50 161 154 61 168 102 63 169 72 42 166 59 60 164 165 173 66 64 62 65 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 154 59 167 66 63 169 60 162 42 166 64 62 65 149 163 164 61 168 161 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 147 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 63 50 169 66 72 167 154 60 162 147 42 166 64 62 65 149 164 61 168 161 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\stm32f10x_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 59 42 166 66 60 162 167 63 154 169 64 62 65 149 43 164 61 168 161 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 140 144 143 21 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 167 60 59 154 164 21 50 63 169 165 140 42 166 61 161 143 145 66 64 62 65 162 149 144 20</file>
         </tool>
       </inputs>
     </file>
@@ -559,41 +850,313 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 52</file>
+          <file> 160</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 64 45 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 69 70 67</file>
+          <name>ICCARM</name>
+          <file> 150 170 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 147 141 149</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 64 45 43 47 21 25 23 26 50 24 20 22 48 46 19 44 42 69 70 67</file>
+          <name>BICOMP</name>
+          <file> 150 170 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 147 141 149</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\contiki\cpu\stm32w108\clock.c</name>
+      <name>$PROJ_DIR$\user\contiki-main.c</name>
       <outputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 114</file>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 167 63 60 59 66 164 61 64 62 166 168 65 169 42 154 162 161 149 165 140 144 143 145 36 118 4 109 71 139 137 39 38 37 138 35 31 146 29 34 32 30 163</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 154 165 29 36 167 60 109 38 139 140 163 63 169 59 164 168 50 138 145 4 34 42 166 61 161 143 71 31 137 118 66 64 62 65 162 149 144 35 32 30 37 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 167 63 60 59 66 164 61 64 62 166 168 65 169 179 183 162 161 149 165 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 166 59 60 164 61 65 165 178 167 63 183 169 66 64 62 161 50 180 168 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\GUI.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 167 63 60 59 66 164 61 64 62 166 168 65 169 179 183 162 161 149 165 203 206 178 204</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 161 204 169 60 206 63 66 59 50 203 178 167 183 64 62 65 165 180 166 164 61 168 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\Lcd_Driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 167 63 60 59 66 164 61 64 62 166 168 65 169 179 183 162 161 149 165 203 196 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 63 64 169 60 196 167 183 65 165 203 178 179 166 66 59 161 50 180 164 61 168 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 167 63 60 59 66 164 61 64 62 166 168 65 169 179 183 162 161 149 165 178 197 203 206</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 206 59 197 179 166 60 161 178 203 167 63 183 169 66 64 62 65 165 180 164 61 168 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\stm32f10x_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198 180 167 63 60 59 66 164 61 64 62 166 168 65 169 179 183 162 161 149 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 164 179 166 59 60 180 61 161 167 63 183 169 66 64 62 65 165 198 168 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 177 63 60 59 66 164 61 64 62 65 179</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 60 177 164 179 59 61 180 65 66 64 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\TFT_demo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 167 63 60 59 66 164 61 64 62 166 168 65 169 179 183 162 161 149 165 203 206 178 199 176 175 197</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169 63 199 60 180 206 167 183 59 164 168 162 203 178 197 179 166 61 149 50 176 66 64 62 65 161 165 175</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\contiki.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 68 25 23 26 50 24 20 22 72 71 117 119 118 121 122 123 124 125 120 126 115 128 107 21 116 77 75 78 79 80 76 82 81 86 74 88 83 85 87 89 127 90 92 91 93 129</file>
+          <file> 138 36 50 139 140 34 184 179 166 59 61 168 149 143 38 63 146 182 167 183 169 60 164 162 180 137 66 64 62 65 161 165 144 181 37 39 35</file>
         </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\uart.c</name>
+      <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 68 25 23 26 50 24 20 22 72 71 117 119 118 121 122 123 124 125 130</file>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 183 162 59 167 60 168 21 180 63 169 140 179 166 61 149 50 143 184 66 64 62 65 161 165 144 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 167 60 64 62 183 59 63 169 66 161 180 179 166 164 61 65 165 182 168 162 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\contiki-main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 167 63 60 59 66 164 61 64 62 166 168 65 169 179 183 162 161 149 165 140 144 143 184 36 181 4 109 71 139 137 39 38 37 138 35 31 146 29 34 32 30 182 178 197 203</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 146 60 29 36 178 167 109 38 139 140 182 203 63 169 164 168 162 59 180 138 184 4 34 197 179 166 61 149 50 143 71 31 137 181 66 64 62 65 161 165 144 35 32 30 37 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 60 59 66 164 61 64 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 60 164 59 66 64 62 63</file>
         </tool>
       </inputs>
     </file>
     <forcedrebuild>
       <name>$PROJ_DIR$\contiki\cpu\stm32w108\clock.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lcd\system_stm32f10x.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
   </configuration>

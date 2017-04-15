@@ -19,6 +19,22 @@
 @REM 
 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0_0\common\bin\cspybat" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0_0\arm\bin\armproc.dll" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0_0\arm\bin\armsim2.dll"  %1 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0_0\arm\bin\armbat.dll" --device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0_0\arm\config\debugger\ST\STM32F1xx.dmac" --backend -B "--endian=little" "--cpu=Cortex-M3" "--fpu=None" "-p" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0_0\arm\CONFIG\debugger\ST\STM32F103x8.ddf" "--semihosting" "--device=STM32F103x8" "--multicore_nr_of_cores=1" 
+@echo off 
 
+if not "%~1" == "" goto debugFile 
 
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\contiki\STM32\settings\stm32.Debug.general.xcl" --backend -f "F:\contiki\STM32\settings\stm32.Debug.driver.xcl" 
+
+@echo off 
+goto end 
+
+:debugFile 
+
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\contiki\STM32\settings\stm32.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\contiki\STM32\settings\stm32.Debug.driver.xcl" 
+
+@echo off 
+:end
