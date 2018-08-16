@@ -1,0 +1,12 @@
+.\out\stm32f10x_it.o: ..\User\stm32f10x_it.c
+.\out\stm32f10x_it.o: ..\User\stm32f10x_it.h
+.\out\stm32f10x_it.o: ..\Lib\cmsis\stm32f10x.h
+.\out\stm32f10x_it.o: ..\Lib\cmsis\core_cm3.h
+.\out\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\stm32f10x_it.o: ..\Lib\cmsis\system_stm32f10x.h
+.\out\stm32f10x_it.o: ..\User\stm32f10x_conf.h
+.\out\stm32f10x_it.o: ..\Lib\inc\stm32f10x_dma.h
+.\out\stm32f10x_it.o: ..\Lib\cmsis\stm32f10x.h
+.\out\stm32f10x_it.o: ..\Lib\inc\stm32f10x_gpio.h
+.\out\stm32f10x_it.o: ..\Lib\inc\stm32f10x_rcc.h
+.\out\stm32f10x_it.o: ..\Lib\inc\misc.h

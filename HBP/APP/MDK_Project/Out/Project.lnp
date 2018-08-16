@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+".\out\startup_stm32f10x_hd.o"
+".\out\core_cm3.o"
+".\out\system_stm32f10x.o"
+".\out\stm32f10x_gpio.o"
+".\out\stm32f10x_rcc.o"
+".\out\stm32f10x_dma.o"
+".\out\stm32f10x_usart.o"
+".\out\stm32f10x_adc.o"
+".\out\misc.o"
+".\out\main.o"
+".\out\stm32f10x_it.o"
+".\out\shell_cmd.o"
+".\out\xshell.o"
+".\out\bsp_i2c.o"
+".\out\bsp_io.o"
+".\out\bsp_tty0.o"
+--strict --scatter ".\Out\Project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\Project.map" -o .\Out\Project.axf

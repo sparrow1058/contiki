@@ -1,0 +1,14 @@
+.\out\bsp_io.o: ..\BSP\bsp_io.c
+.\out\bsp_io.o: ..\Lib\cmsis\stm32f10x.h
+.\out\bsp_io.o: ..\Lib\cmsis\core_cm3.h
+.\out\bsp_io.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\bsp_io.o: ..\Lib\cmsis\system_stm32f10x.h
+.\out\bsp_io.o: ..\User\stm32f10x_conf.h
+.\out\bsp_io.o: ..\Lib\inc\stm32f10x_dma.h
+.\out\bsp_io.o: ..\Lib\cmsis\stm32f10x.h
+.\out\bsp_io.o: ..\Lib\inc\stm32f10x_gpio.h
+.\out\bsp_io.o: ..\Lib\inc\stm32f10x_rcc.h
+.\out\bsp_io.o: ..\Lib\inc\misc.h
+.\out\bsp_io.o: ..\Inc\bsp_type.h
+.\out\bsp_io.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out\bsp_io.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
